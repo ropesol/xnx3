@@ -1,0 +1,39 @@
+.in-cont {
+    display: flex;
+}
+
+.in-data {
+    width: 65%;
+   
+}
+
+.in-qr {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.intext {
+    word-wrap: break-word;
+    font-size: 14px;
+}
+.in-cont_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.icon_method {
+    position: absolute;
+    left: 0px;
+    top: 13px;
+}
+
+.close_toast {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+:root {
+    --toastify-color-warning: #e74c3c;
+}
